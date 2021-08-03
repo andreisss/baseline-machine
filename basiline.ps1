@@ -1,6 +1,5 @@
 Get-Process | Export-Clixml Baseline-Processes.xml
 Get-WmiObject Win32_OperatingSystem | Export-Clixml Baseline-Os.xml
-Get-WmiObject Win32_OperatingSystem | Export-Clixml Baseline-Os.xml
 Get-WmiObject Win32_SystemServices | Export-Clixml system-services.xml
 Get-WmiObject Win32_SystemResources | Export-Clixml system-resources.xml
 Get-WmiObject Win32_ShortcutFile | Export-Clixml shortcutfile.xml
